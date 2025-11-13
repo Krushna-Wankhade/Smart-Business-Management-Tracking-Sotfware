@@ -13,6 +13,8 @@ This project includes 8 python scripts that demonstrate how to interact with a G
 6. `sales.py`
 7. `create_db.py`
 8. `billing.py`
+9. `receipt_ui.py`
+
 
 ### 1. dashboard.py
 - This script is the dashboard of Inventory Management System containing buttons, images and labels and timing.
@@ -66,6 +68,20 @@ This project includes 8 python scripts that demonstrate how to interact with a G
 - Buttons are functionalised accordingly.
 
 ![alt text](image-6.png)
+
+### 9. receipt_ui.py
+- This screen displays the receipt generation and management interface.
+- It shows all recent receipts created through billing, including details such as Receipt ID, Date, Customer Name, Items Purchased, Quantity, Amount, and Status.
+- The interface includes options to view, print, download, or delete receipts.
+- A search and filter feature allows users to find receipts by date range, customer name, or receipt ID.
+- The layout includes a summary section that displays the total number of receipts, total sales, and pending receipts.
+- Buttons are functionalized for:
+    - Generating a new receipt after billing completion.
+    - Printing or exporting the receipt as PDF or Excel.
+    - Sending the receipt to customers via email or SMS (if enabled).
+- It integrates with the billing system to automatically fetch data for each transaction.
+- A “View Details” button allows expansion of any receipt to see itemized purchase information, discounts, taxes, and final total.
+![alt text](image-7.png)
 
 #### Detailed Steps:
 1. Click on the `create_db.py` file first and run it.
