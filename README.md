@@ -81,6 +81,7 @@ This project includes 8 python scripts that demonstrate how to interact with a G
     - Sending the receipt to customers via email or SMS (if enabled).
 - It integrates with the billing system to automatically fetch data for each transaction.
 - A “View Details” button allows expansion of any receipt to see itemized purchase information, discounts, taxes, and final total.
+  
 ![alt text](image-7.png)
 
 #### Detailed Steps:
@@ -92,6 +93,7 @@ This project includes 8 python scripts that demonstrate how to interact with a G
 6. Now click on the `billing.py` file for billing.
 7. Now click on the `dashboard.py` file and run it.
 8. Click on the `sales` button to see your billing.
+9. Click on the `receipt` button to scan the receipt.
 
 ### Pre-Requisites
 Ensure that you have the following Python Pakages installed in your PC:
